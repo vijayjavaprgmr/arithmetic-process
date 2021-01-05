@@ -2,10 +2,9 @@ package home.prac;
 
 public class Addition {
 
-	public int addTwoNumber(int i, int j) {
+	private Addition(){	
+	}
+	public static int addTwoNumber(int i, int j) {
 		return i+j;
 	}
-	
-	
-
 }
